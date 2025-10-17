@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build/output folders (if building locally)
+dist/
+build/
+
+# Environment files
+.env
+
+# Large media files (not used directly in UI)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db

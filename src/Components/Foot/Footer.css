@@ -1,0 +1,37 @@
+.loader {
+  width: 60px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.loader::after,
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #FFF;
+  position: absolute;
+  right: 10%;
+  bottom: 0%;
+  top: -50%;
+  opacity: 0; /* 👈 Start hidden to avoid flash */
+  animation: animloader 2s linear infinite both; /* 👈 'both' keeps proper state */
+}
+
+.loader::after {
+  animation-delay: 1s;
+}
+
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

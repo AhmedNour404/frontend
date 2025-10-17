@@ -1,0 +1,42 @@
+.line a,
+.line button {
+  position: relative;
+  text-decoration: none;
+}
+
+.line a:hover,
+.line button:hover,
+.line a.active,
+.line button.active   {
+  color: yellow; 
+}
+
+
+@media (min-width: 1024px) {
+  .line a::after,
+.line button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* small gap */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease-in-out; /* smooth animation */
+}
+}
+
+.line a:hover::after,
+.line a.active::after,
+.line button:hover::after,
+.line button.active::after
+ {
+  
+  width: 100%; /* underline grows fully */
+}
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+@import "tailwindcss";  
+@custom-variant dark (&:where(.dark, .dark *));
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";   
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+
+
+/* Default theme */
+/* index.css */
+body {
+ @apply bg-white text-black;
+  background-image: none;
+   @apply font-oswald bg-white text-black;
+}
+
+.dark body {
+  
+   @apply bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950;
+   /* 👈 kill the gradient */
+}
+
+
+
+
+
+
+@theme {
+  --font-oswald: 'Oswald',"Cairo", sans-serif;
+}
