@@ -5,8 +5,11 @@ import flowbiteReact from "flowbite-react/plugin/vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbiteReact()],
-  base: './', // fixes relative path issues
+  base: './',
   build: {
-    outDir: 'dist', // ensures build output goes to 'dist'
+    outDir: 'dist',
+  },
+  server: {
+    historyApiFallback: true, // ✅ handles refresh in local dev too
   },
 })
