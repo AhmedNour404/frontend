@@ -8,12 +8,7 @@ build/
 # Environment files
 .env
 
-# Large media files (not used directly in UI)
-# *.mp4
-# *.mov
-# *.avi
-# *.mkv
-# *.zip
+
 
 
 # Logs
