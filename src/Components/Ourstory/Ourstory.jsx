@@ -11,7 +11,7 @@ export default function Ourstory() {
       {/* video div  */}
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-          src="/our.mp4"
+          src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760796851/our_qd8s5q.mp4"
           autoPlay
           loop
           muted
