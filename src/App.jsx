@@ -16,6 +16,7 @@ let routes =  createBrowserRouter([{
 
     path: "", element: <Layout />, 
     errorElement:<ErrorPage/>,  children: [
+        {index:true , element: <Home/>},
       { path: 'home', element: <Home /> },
       { path: "subscribtions", element: <Subscribtions /> },
      {path:"ourstory",element:<Ourstory/>} ,
