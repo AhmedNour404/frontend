@@ -21,7 +21,7 @@ export default function Subscribtions() {
 
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-          src="./subs.mp4"
+          src="/subs.mp4"
           autoPlay
           loop
           muted

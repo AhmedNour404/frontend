@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-          src="./N.mp4"
+          src="/N.mp4"
           autoPlay
           loop
           muted
