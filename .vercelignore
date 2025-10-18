@@ -9,10 +9,12 @@ build/
 .env
 
 # Large media files (not used directly in UI)
-*.mov
-*.avi
-*.mkv
-*.zip
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.zip
+
 
 # Logs
 logs/
