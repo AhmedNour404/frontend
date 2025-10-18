@@ -127,7 +127,7 @@ export default function Home() {
         </div>
 
         <video id='ez'
-          src="./V.mp4" autoPlay loop muted playsInline
+          src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760796623/V_atoopj.mp4" autoPlay loop muted playsInline
           className=" w-full lg:w-1/2  h-full object-cover"
         />
         <div className=" hidden lg:flex flex-1 h-full rounded-none ">
