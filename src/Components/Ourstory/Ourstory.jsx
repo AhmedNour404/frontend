@@ -12,6 +12,8 @@ export default function Ourstory() {
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
           src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760886632/our_wrbmoj.mp4"
+          loading="lazy"
+          preload="none"
           autoPlay
           loop
           muted
