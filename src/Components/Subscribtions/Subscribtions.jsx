@@ -33,7 +33,7 @@ export default function Subscribtions() {
     src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760795329/subs_znjeqg.mp4"
     type="video/mp4"
   />
-          <video/>
+        </video>
         
         <div className='absolute bg-black/50 inset-0   '></div>
         <div className=' z-10 absolute flex items-center  lg:w-1/2  rounded-2xl  flex-col justify-around  h-1/2 lg:translate-y-1/4 translate-y-1/3'>
