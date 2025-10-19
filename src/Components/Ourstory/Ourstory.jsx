@@ -11,15 +11,23 @@ export default function Ourstory() {
       {/* video div  */}
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-          src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760886632/our_wrbmoj.mp4"
-          loading="lazy"
-          preload="none"
+         
+         
+          preload="auto"
           autoPlay
           loop
           muted
           playsInline
           className="absolute top-0 left-0 w-full h-full  object-cover"
         />
+        
+<source
+    src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760886632/our_wrbmoj.mp4"
+    type="video/mp4"
+  />
+
+</video>
+        
         <div className='absolute bg-black/50 inset-0   '></div>
 
         <div className=' z-10 absolute flex items-center  lg:w-1/2  rounded-2xl  flex-col justify-around  h-1/2 lg:translate-y-1/4 translate-y-1/3'>
