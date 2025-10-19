@@ -11,13 +11,12 @@ export default function Ourstory() {
       {/* video div  */}
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-         
-         
-          preload="auto"
-          autoPlay
-          loop
-          muted
-          playsInline
+       autoPlay
+  loop
+  muted
+  playsInline
+  preload="auto"
+  poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
           className="absolute top-0 left-0 w-full h-full  object-cover"
         />
         
@@ -25,7 +24,6 @@ export default function Ourstory() {
     src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760886632/our_wrbmoj.mp4"
     type="video/mp4"
   />
-
 </video>
         
         <div className='absolute bg-black/50 inset-0   '></div>
