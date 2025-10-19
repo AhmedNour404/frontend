@@ -21,19 +21,21 @@ export default function Subscribtions() {
 
       <div className=' w-full  flex justify-center items-start h-screen         '>
         
-        <video
-          preload="auto"
-          autoPlay
-          loop
-          muted
-          playsInline
+     <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="auto"
+  poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
           className="absolute top-0 left-0 w-full h-full  object-cover"
         > 
+       
             <source
     src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760795329/subs_znjeqg.mp4"
     type="video/mp4"
   />
-        </video>
+</video>
         
         <div className='absolute bg-black/50 inset-0   '></div>
         <div className=' z-10 absolute flex items-center  lg:w-1/2  rounded-2xl  flex-col justify-around  h-1/2 lg:translate-y-1/4 translate-y-1/3'>
