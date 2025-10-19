@@ -17,6 +17,8 @@ export default function RandR() {
           <div className="bg-gradient-to-r opacity-15 absolute lg:start-0 from-yellow-400 to-yellow-500 inset-0 w-full h-full object-cover z-10"></div>
           <video
             src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760801662/Vshort_xoyh2j.mp4"
+            loading="lazy"
+            preload="none"
             autoPlay
             loop
             muted
