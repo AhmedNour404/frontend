@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className=' w-full  flex justify-center items-start h-screen         '>
         <video
-          src="/N.mp4"
+          src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760885659/N_de578u.mp4"
           autoPlay
           loop
           muted
@@ -127,7 +127,11 @@ export default function Home() {
         </div>
 
         <video id='ez'
-          src="V.mp4" autoPlay loop muted playsInline
+          src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760801662/Vshort_xoyh2j.mp4"
+          autoPlay
+          loop 
+          muted
+          playsInline
           className=" w-full lg:w-1/2  h-full object-cover"
         />
         <div className=" hidden lg:flex flex-1 h-full rounded-none ">
