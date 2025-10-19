@@ -21,20 +21,21 @@ export default function Home() {
     <>
 
       <div className=' w-full  flex justify-center items-start h-screen         '>
-   <video
+ <video
   autoPlay
   loop
   muted
   playsInline
-  preload="metadata"
+  preload="auto"
   poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
   className="absolute top-0 left-0 w-full h-full object-cover"
 >
   <source
-    src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto/v1760885659/N_de578u.mp4"
+    src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760885659/N_de578u.mp4"
     type="video/mp4"
   />
 </video>
+
 
         <div className='absolute bg-black/50 inset-0   '></div>
 
