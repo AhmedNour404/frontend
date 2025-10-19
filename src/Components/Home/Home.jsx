@@ -141,7 +141,7 @@ export default function Home() {
   playsInline
   preload="auto"
   poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
-  className="absolute top-0 left-0 w-full h-full object-cover"
+  className="w-full lg:w-1/2  h-full object-cover"
 >
     
   <source
