@@ -15,16 +15,24 @@ export default function RandR() {
       <div className='w-full h-lvh   flex flex-col    '>
         <div className=" pointer-events-none  w-full h-full">
           <div className="bg-gradient-to-r opacity-15 absolute lg:start-0 from-yellow-400 to-yellow-500 inset-0 w-full h-full object-cover z-10"></div>
+          
           <video
-            src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760801662/Vshort_xoyh2j.mp4"
-            loading="lazy"
-            preload="none"
+          
+           
+            preload="auto"
             autoPlay
             loop
             muted
             playsInline
             className="absolute top-0 pointer-events-none w-full h-lvh  object-cover"
-          />
+          > 
+            
+<source
+    src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760801662/Vshort_xoyh2j.mp4"
+    type="video/mp4"
+  />
+            </video>
+          
         </div>
         <div className="overflow-hidden">
           <div className="absolute inset-0  flex flex-col items-center justify-center text-center   px-4">
