@@ -134,21 +134,22 @@ export default function Home() {
           <div className=" lg:hidden w-full"><Caro3 className="pt-10 lg:pt-0 " /></div>
         </div>
 
-    <video 
-          
-    autoPlay
+  <video
+  autoPlay
   loop
   muted
   playsInline
-  preload="metadata"
+  preload="auto"
   poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
-          className=" w-full lg:w-1/2  h-full object-cover"
-        >
- <source
-    src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760801662/Vshort_xoyh2j.mp4"
+  className="absolute top-0 left-0 w-full h-full object-cover"
+>
+    
+  <source
+    src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760801662/Vshort_xoyh2j.mp4"
     type="video/mp4"
   />
 </video>
+
         
         <div className=" hidden lg:flex flex-1 h-full rounded-none ">
           <Caro3
