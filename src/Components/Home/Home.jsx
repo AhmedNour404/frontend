@@ -24,6 +24,8 @@ export default function Home() {
         <video
           src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760885659/N_de578u.mp4"
           autoPlay
+          loading="lazy"
+          preload="none"
           loop
           muted
           playsInline
@@ -128,6 +130,8 @@ export default function Home() {
 
         <video id='ez'
           src="https://res.cloudinary.com/de7ft98kq/video/upload/v1760801662/Vshort_xoyh2j.mp4"
+          loading="lazy"
+          preload="none"
           autoPlay
           loop 
           muted
