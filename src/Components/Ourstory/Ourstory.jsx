@@ -18,7 +18,7 @@ export default function Ourstory() {
   preload="auto"
   poster="https://res.cloudinary.com/de7ft98kq/image/upload/q_auto,f_auto/our_wrbmoj.jpg"
           className="absolute top-0 left-0 w-full h-full  object-cover"
-        />
+        >
         
 <source
     src="https://res.cloudinary.com/de7ft98kq/video/upload/q_auto,f_auto,w_1280,br_800k,vc_auto/v1760886632/our_wrbmoj.mp4"
