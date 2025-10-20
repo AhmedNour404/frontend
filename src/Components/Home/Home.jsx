@@ -158,7 +158,17 @@ export default function Home() {
       </div>
 
       {/* subscribtions bundles */}
-      <div className="w-full p-12 relative  " id="plans">
+          <div
+  id="plans"
+  className="
+    w-full
+    pb-12
+    px-4
+    bg-yellow-200
+    relative
+    overflow-visible mt-24 sm:mt-16 md:mt-12 lg:mt-8
+  "
+>
 
 
         <p className="dark:text-white text-gray-700 font-semibold font-oswald text-center pt-10 lg:pt-0 text-4xl">
