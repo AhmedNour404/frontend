@@ -193,10 +193,18 @@ export default function ContactForm() {
                                 {language === "ar" ? "رقم تليفونك" : " Your phone number"}
                             </label>
                             <input
-                                type="number"
+                                type="tel"
                                 id="phone"
+                                inputMode="numeric"
+                                pattern="[0-9]*"
                                 value={formData.phone}
-                                onChange={(e) => handleChange("phone", e.target.value)}
+                               onChange={(e) => {
+
+                                    const val = e.target.value;
+                                    if (/^\d*$/.test(val)) {
+                                        handleChange("phone", val);
+                                    }
+                                }}
                                 className={`block p-3 w-full bg-transparent text-sm rounded-lg border-2 shadow-sm focus:outline-none
       ${errors.phone
                                         ? "border-red-600 focus:border-red-600"
