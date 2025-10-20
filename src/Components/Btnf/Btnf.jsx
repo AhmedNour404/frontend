@@ -131,10 +131,12 @@ useEffect(() => {
                         <div className="w-72">
                             <div className="relative">
                                 <input
-                                    type="number"
+                                    type="tel"
+                                    inputMode="numeric"
+                                     pattern="[0-9]*"
                                     id="phone"
                                     value={formData.phone}
-                                    onChange={(e) => handleChange("phone", e.target.value)}
+                                    onChange={(e) =>{ const val = e.target.value ;if (/^\d*$/.test(val)) {handleChange("phone", val)}}}
 
 
                                     // 👈 here
