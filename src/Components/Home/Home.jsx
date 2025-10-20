@@ -164,7 +164,7 @@ export default function Home() {
     w-full
     pb-12
     px-4
-    bg-yellow-200
+    
     relative
     overflow-visible mt-24 sm:mt-16 md:mt-12 lg:mt-8
   "
