@@ -47,16 +47,16 @@ export default function Ourstory() {
 
 
 
-      <div className='w-full h-lvh pt-10 p-5 '>
-        <div className='w-full font-oswald text-base/7 dark:text-white text-gray-700  grid grid-rows-6 h-full'>
-          <div className=' text-5xl'><p>{language === "ar" ? "قصة نجاحنا" : "Who we are"} </p></div>
-          <div className='  row-span-2'>
+     <div className='w-full   pt-10  '>
+        <div className='w-full  font-oswald text-base/7 dark:text-white text-gray-700  grid grid-rows-6 h-full'>
+          <div className=' text-5xl px-8'><p>{language === "ar" ? "قصة نجاحنا" : "Who we are"} </p></div>
+          <div className=' px-8 row-span-2'>
             <p>
               {language === "ar" ? "ابتدت Glow Gym سنة 2020 كفكرة صغيرة هدفها تغيّر مفهوم الفتنس في الجيزة، وبالإصرار والجودة والشغف بقت واحدة من أكبر الجيمات هناك، معروفة بمساحتها الضخمة وجوها الاحترافي، وبفريق أكتر من 9 مدربين محترفين بقت بيت لكل الرياضيين واللي عايزين يطوروا نفسهم، ومع الوقت كبرت وبقت مجهزة بأحدث الأجهزة ومعاها سبا فاخر وميني بار بيقدم شوتات قبل التمرين ومشروبات صحية، والنهارده Glow Gym بقت رمز للنجاح والقوة والتغيير في عالم الفتنس في مصر." : "Started in 2020, Glow Gym began as a small vision — to redefine fitness in Giza. Through dedication, quality, and passion, it grew into one of Giza’s biggest gyms, admired for its huge space and elite training atmosphere. With a team of over 9 experienced coaches, Glow Gym became a home for serious athletes and everyday fitness seekers alike. Step by step, it expanded with state-of-the-art machines, a luxurious spa, and a mini bar serving energizing pre-workout shots and healthy drinks. Today, Glow Gym stands as a symbol of success, strength, and transformation in Egypt’s fitness world."}
             </p>
           </div>
-          <div className=' rounded-lg   row-span-3'>
-            <Caro3 className='rounded-2xl' />
+          <div className=' rounded-lg  w-full flex items-center   row-span-3'>
+            <Caro3 className='rounded-2xl w-full' />
           </div>
         </div>
 
