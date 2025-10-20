@@ -251,15 +251,15 @@ export default function ContactForm() {
                                 : "bg-gray-500  py-0 px-0 text-gray-300 cursor-not-allowed"
                                 }`}
                         >
-                            {isLoading ? <div className="loader"></div> : language === "ar" ? "إرسال الرسالة" : "Send Message"}
+                            {isLoading ? <div className="w-full  flex justify-center"><div className="loader "></div></div>  : language === "ar" ? "إرسال الرسالة" : "Send Message"}
                         </button>
 
                         {status === "success" ? (
-                            <p className="text-green-400">
+                            <p className="text-green-400 flex justify-center">
                                 {language === "ar" ? "تم الإرسال بنجاح" : "Sent successfully"}
                             </p>
                         ) : status === "error" ? (
-                            <p className="text-red-500">
+                            <p className="text-red-500 flex justify-center">
                                 {language === "ar" ? "حدث خطأ أثناء إرسال الرسالة." : "Error sending message."}
                             </p>
                         ) : null}
