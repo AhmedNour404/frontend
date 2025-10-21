@@ -14,7 +14,7 @@ export default function RandR() {
 
       <div className='w-full h-lvh   flex flex-col    '>
         <div className=" pointer-events-none  w-full h-full">
-          <div className="bg-gradient-to-r opacity-15 absolute lg:start-0 from-yellow-400 to-yellow-500 inset-0 w-full h-full object-cover z-10"></div>
+          <div className="bg-gradient-to-r opacity-15 absolute lg:start-0 from-yellow-400 to-yellow-500 inset-0 w-full h-lvh object-cover z-10"></div>
           
           <video
           
